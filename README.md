@@ -2,7 +2,9 @@
 
 Notebook used for the Kaggle competition [PetFinder.my - Pawpularity Contest](https://www.kaggle.com/c/petfinder-pawpularity-score)
 
-This notebook especillay showcase how transfer learning can be applied based on the EfficientNet model.
+This notebook especillay showcase how transfer learning can be applied based on the EfficientNet model. 
+
+It also showcases how we can create a custom generator from `Keras`'s `Sequence` class so that we can avoid loading all the images in RAM which would cause out-of-memory errors.
 
 We create a model based on two input, the first one being the RGB vector from the given pictures and the second one being a vector representing some metadata that have been manually labelled by the organizer of the competition.
 
